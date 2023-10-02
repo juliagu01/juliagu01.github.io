@@ -1,0 +1,41 @@
+.OverlayPanel {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.Overlay {
+  position: fixed;
+  width: 60%;
+  height: 100%;
+  background-color: #ffffff66;
+}
+
+.Panel {
+  position: fixed;
+  right: 0px;
+  width: 40%;
+  height: 100%;
+  background-color: navajowhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: black;
+}
+
+span {
+  font-size: 18px;
+}
+
+.Menu, .Settings {
+  margin: 50px;
+}
+
+.Options {
+  padding: 5px;
+}
+
+.Options div {
+  display: block;
+  padding: 5px;
+}

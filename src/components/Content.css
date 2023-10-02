@@ -1,0 +1,34 @@
+.Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+}
+
+.Text {
+  width: 375px;
+  z-index: 1;
+}
+
+.Description {
+  padding: 5px;
+}
+
+.Description p {
+  padding: 5px;
+}
+
+.Image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+/*
+  .Image:hover {
+    background-color: #aa998844;
+  }
+*/

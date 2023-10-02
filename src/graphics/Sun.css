@@ -1,0 +1,38 @@
+.SunRay {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: solid 20px;
+  border-color: #e06666 transparent transparent transparent;
+}
+
+.SunBeam {
+  position: absolute;
+  opacity: 50%;
+  width: 200vmax;
+  height: 130px;
+  background-color: #f6b26b44;
+}
+
+  .SunBeam:hover {
+    opacity: 70%;
+  }
+
+.SunBeamInner {
+  position: relative;
+  top: 30px;
+  width: 100%;
+  height: 70px;
+  background-color: #f6b26b44;
+}
+
+.SunCenter {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 150px;
+  height: 150px;
+  background-color: #e06666;
+  border-radius: 50%;
+}
+

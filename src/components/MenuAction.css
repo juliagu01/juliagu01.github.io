@@ -1,0 +1,8 @@
+#MenuAction {
+  z-index: 1;
+  align-items: center;
+}
+
+#MenuAction h2 {
+  margin-bottom: 5px;
+}
