@@ -1,0 +1,68 @@
+.Snowflakes {
+  position: absolute;
+  top: 2vmax;
+  left: -80vmax;
+}
+
+#DefaultSnowflake {
+  opacity: 1;
+}
+
+  .Snowflakes:has(.Snowflake:hover) > #DefaultSnowflake {
+    opacity: 0;
+  }
+
+.Snowflake {
+  opacity: 0;
+}
+
+  .Snowflake:hover {
+    opacity: 1;
+  }
+
+.SnowflakeSpoke {
+  position: absolute;
+  width: 200vmax;
+  height: 60px;
+}
+
+.SnowflakeSpokeMain {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background-color: #ffffff44;
+}
+
+.SnowflakeSpokeAccent {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background-color: #88e8ff33;
+}
+
+#MainSnowflake {
+  position: relative;
+}
+
+.SnowflakeSpokeBody {
+  position: absolute;
+  width: 125px;
+  height: 10px;
+  background-color: white;
+}
+
+.SnowflakeSpokeLeft {
+  position: absolute;
+  transform: translateX(50px) rotate(-60deg) translateX(25px);
+  width: 50px;
+  height: 10px;
+  background-color: white;
+}
+
+.SnowflakeSpokeRight {
+  position: absolute;
+  transform: translateX(50px) rotate(60deg) translateX(25px);
+  width: 50px;
+  height: 10px;
+  background-color: white;
+}

@@ -12,7 +12,7 @@ function Telescope() {
           <div className="TelescopeBody"></div>
         </div>
       </div>
-      {[260, 250, 240, 230, 220, 210, 200, 190].map((element, index) =>
+      {[260, 250, 240, 230, 220, 210, 200].map((element, index) =>
         <div className="TelescopeAngle" key={"TelescopeAngle" + index} style={{
           transform: `rotate(${element}deg)` }}>
           <div className="TelescopeBeam">

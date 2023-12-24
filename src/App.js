@@ -17,6 +17,7 @@ import OverlayPanel from './components/OverlayPanel.js';
 import MenuAction from './components/MenuAction.js';
 import Sun from './graphics/Sun.js';
 import Map from './graphics/Map.js';
+import Snowflake from './graphics/Snowflake.js';
 import Telescope from './graphics/Telescope.js';
 
 function App() {
@@ -45,12 +46,14 @@ function App() {
         setPanel(false);
         break;
       case "h":
+      case "a":
         setPageName("Home");
         break;
       case "p":
         setPageName("Projects");
         break;
       case "c":
+      case "e":
         setPageName("Contact");
         break;
       case "t":
@@ -132,14 +135,14 @@ const text = [
     img: <Map />
   },
   {
-    heading: "Personal Website",
+    heading: "Personal website",
     description: [
-      "(Is this meta or what? ;))",
+      "(Is this meta or what? *wink*)",
       "Back to basics with React.js and CSS. Used React hooks and CSS pseudo-classes to create an interactive single-page website to display my work.",
       "React.js, CSS",
       "2023"
     ],
-    alt: "Website"
+    img: <Snowflake />
   },
   {
     heading: "Tumble",

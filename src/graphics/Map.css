@@ -8,35 +8,51 @@
 }
 
 .MapPanel {
-  background-color: #f4d4a4;
-  width: 115px;
+  width: 100px;
   height: 100%;
 }
 
+#LeftMapPanel {
+  background-color: #f8e8c8;
+}
+
 #CenterMapPanel {
-  background-color: #f5deb3;
+  width: 150px;
+  background-color: #f6e2b8;
+}
+
+#RightMapPanel {
+  background-color: #f6d8a8;
 }
 
 .MapLocation {
   position: absolute;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  background-color: #a0804020;
+  background-color: #f15;
 }
 
   .MapLocation:hover {
-    background-color: #a0804028;
+    background-color: #e15;
   }
+
+.MapLocationPoint {
+  position: absolute;
+  transform: translate(5px, 5px) rotate(45deg) translate(5px, 5px);
+  width: 10px;
+  height: 10px;
+  background-color: inherit;
+}
 
 .MapLocationDot {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 10px;
-  height: 10px;
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background-color: #e05555;
+  background-color: white;
 }
 
 .MapRiver {
@@ -47,10 +63,6 @@
   width: 150vmax;
   height: 130px;
 }
-
-  .MapRiver:hover {
-    opacity: 70%;
-  }
 
 .MapRiverInner {
   position: absolute;

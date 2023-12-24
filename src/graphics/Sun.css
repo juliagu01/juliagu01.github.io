@@ -3,7 +3,7 @@
   width: 0;
   height: 0;
   border: solid 20px;
-  border-color: #e06666 transparent transparent transparent;
+  border-color: #ff7777 transparent transparent transparent;
 }
 
 .SunBeam {
@@ -11,7 +11,7 @@
   opacity: 50%;
   width: 200vmax;
   height: 130px;
-  background-color: #f6b26b44;
+  background-color: #f6b86b44;
 }
 
   .SunBeam:hover {
@@ -23,7 +23,7 @@
   top: 30px;
   width: 100%;
   height: 70px;
-  background-color: #f6b26b44;
+  background-color: #f6b86b77;
 }
 
 .SunCenter {
@@ -32,7 +32,7 @@
   left: 100px;
   width: 150px;
   height: 150px;
-  background-color: #e06666;
+  background-color: #ff7777;
   border-radius: 50%;
 }
 
