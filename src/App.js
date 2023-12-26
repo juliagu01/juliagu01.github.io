@@ -1,9 +1,7 @@
 /**
  * To-do:
- * - add images
+ * - add decorations to project pages
  * - change rays to half-squares
- * - add links to content
- * - format languages + dates
  * - responsive (viewport)
  * - change elements to components
  * ? add carousel to bottom
@@ -151,7 +149,8 @@ const text = [
       "Java, Processing",
       "2020"
     ],
-    alt: "Splash"
+    img: <img src={process.env.PUBLIC_URL + "/splash.png"} alt="Splash" width="350px" />,
+    link: "https://github.com/juliagu01/Tumble"
   },
   {
     heading: "3D",
@@ -160,7 +159,8 @@ const text = [
       "JavaScript, Processing.js",
       "2021"
     ],
-    alt: "Model"
+    img: <img src={process.env.PUBLIC_URL + "/model.png"} alt="Model" width="300px" />,
+    link: "https://www.khanacademy.org/computer-programming/spin-off-of-3d/5521346115485696"
   },
   {
     heading: "Finite Series Calculator",
@@ -169,7 +169,8 @@ const text = [
       "JavaScript",
       "2020"
     ],
-    alt: "Results"
+      img: <img src={process.env.PUBLIC_URL + "/results.png"} alt="Results" width="300px" />,
+      link: "https://www.khanacademy.org/computer-programming/finite-series-calculator/5330136479924224"
   },
   {
     heading: "BruinEats",
@@ -178,7 +179,8 @@ const text = [
       "MERN, touch of Tailwind CSS",
       "2023"
     ],
-    alt: "Welcome"
+    img: <img src={process.env.PUBLIC_URL + "/welcome.png"} alt="Welcome" width="300px" />,
+    link: "https://github.com/jameswang08/ucla-dining-app"
   },
   {
     heading: "Driving Practice",
@@ -187,7 +189,8 @@ const text = [
       "JavaScript, Processing.js",
       "2022"
     ],
-    alt: "Playback"
+    img: <img src={process.env.PUBLIC_URL + "/playback.png"} alt="Playback" width="300px" />,
+    link: "https://www.khanacademy.org/computer-programming/driving-practice/5228465746395136"
   },
   {
     heading: "Oculochroma",
@@ -196,7 +199,8 @@ const text = [
       "Java",
       "2019"
     ],
-    alt: "Grid"
+    img: <img src={process.env.PUBLIC_URL + "/grid.png"} alt="Grid" width="350px" />,
+    link: "https://github.com/juliagu01/OculoChroma"
   },
   {
     heading: "Contact",
