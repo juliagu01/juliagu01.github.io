@@ -1,6 +1,5 @@
 /**
  * To-do:
- * - add decorations to project pages
  * - change rays to half-squares
  * - responsive (viewport)
  * - change elements to components
@@ -16,6 +15,8 @@ import MenuAction from './components/MenuAction.js';
 import Sun from './graphics/Sun.js';
 import Map from './graphics/Map.js';
 import Snowflake from './graphics/Snowflake.js';
+import Orb from './graphics/Orb.js';
+import Grid from './graphics/Grid.js';
 import Telescope from './graphics/Telescope.js';
 
 function App() {
@@ -149,7 +150,7 @@ const text = [
       "Java, Processing",
       "2020"
     ],
-    img: <img src={process.env.PUBLIC_URL + "/splash.png"} alt="Splash" width="350px" />,
+    img: <><Orb /><img src={process.env.PUBLIC_URL + "/splash.png"} alt="Splash" width="350px" style={{zIndex:1}}/></>,
     link: "https://github.com/juliagu01/Tumble"
   },
   {
@@ -159,7 +160,7 @@ const text = [
       "JavaScript, Processing.js",
       "2021"
     ],
-    img: <img src={process.env.PUBLIC_URL + "/model.png"} alt="Model" width="300px" />,
+    img: <img src={process.env.PUBLIC_URL + "/model.png"} alt="Model" width="300px" style={{"borderRadius": "100%"}} />,
     link: "https://www.khanacademy.org/computer-programming/spin-off-of-3d/5521346115485696"
   },
   {
@@ -199,7 +200,7 @@ const text = [
       "Java",
       "2019"
     ],
-    img: <img src={process.env.PUBLIC_URL + "/grid.png"} alt="Grid" width="350px" />,
+    img: <><Grid /><img src={process.env.PUBLIC_URL + "/grid.png"} alt="Grid" width="350px" style={{zIndex: 1}} /></>,
     link: "https://github.com/juliagu01/OculoChroma"
   },
   {

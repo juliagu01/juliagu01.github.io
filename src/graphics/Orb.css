@@ -1,0 +1,41 @@
+.Orb {
+  position: absolute;
+  left: 380px;
+  top: 280px;
+  opacity: 55%;
+}
+
+  .Orb:has(#OrbGlow0:hover) {
+    opacity: 100%;
+  }
+
+  .Orb:has(#OrbGlow1:hover) {
+    opacity: 85%;
+  }
+
+  .Orb:has(#OrbGlow2:hover) {
+    opacity: 70%;
+  }
+
+  .Orb > #OrbGlow3, #OrbGlow4, #OrbGlow5 {
+    visibility: hidden;
+  }
+
+  .Orb:has(#OrbGlow0:hover) > #OrbGlow5 {
+    visibility: visible;
+  }
+
+  .Orb:has(#OrbGlow0:hover, #OrbGlow1:hover) > #OrbGlow4 {
+    visibility: visible;
+  }
+
+  .Orb:has(#OrbGlow0:hover, #OrbGlow1:hover, #OrbGlow2:hover) > #OrbGlow3 {
+    visibility: visible;
+  }
+
+.OrbGlow {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 100%;
+}

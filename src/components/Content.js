@@ -5,7 +5,7 @@ function Content({text}) {
     <div className="Content">
       <div className="Text">
         <h1 className="Heading">
-          {text.link ? <a href={text.link}>{text.heading} &#x26D3;</a> : text.heading}
+          {text.link ? <a href={text.link} target="_blank" rel="noopener noreferrer">{text.heading} <span>&#x26D3;</span></a> : text.heading}
         </h1>
         <div className="Description">
           {text.description.map((paragraph, index) => <p key={index}>{paragraph}</p>)}

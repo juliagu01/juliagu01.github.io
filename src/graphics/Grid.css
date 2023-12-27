@@ -1,0 +1,17 @@
+.Grid {
+  position: absolute;
+  top: -20px;
+  left: 400px;
+}
+
+.GridStripe {
+  position: absolute;
+  opacity: 80%;
+  width: 200vmax;
+  height: 40px;
+  background-color: #dd88aa44;
+}
+
+  .GridStripe:hover {
+    opacity: 100%;
+  }

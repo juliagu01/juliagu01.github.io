@@ -15,6 +15,10 @@
   text-decoration: none;
 }
 
+.Heading span {
+  font-size: 24px;
+}
+
 .Description {
   padding: 5px;
 }
