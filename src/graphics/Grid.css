@@ -1,7 +1,7 @@
 .Grid {
   position: absolute;
   top: -20px;
-  left: 400px;
+  left: 320px;
 }
 
 .GridStripe {
@@ -15,3 +15,26 @@
   .GridStripe:hover {
     opacity: 100%;
   }
+
+  .Grid:has(#GridIntersect0_0:hover, #GridIntersect80_0:hover) > #GridRow0 {
+    opacity: 100%;
+  }
+
+  .Grid:has(#GridIntersect0_80:hover, #GridIntersect80_80:hover) > #GridRow80 {
+    opacity: 100%;
+  }
+
+  .Grid:has(#GridIntersect0_0:hover, #GridIntersect0_80:hover) > #GridColumn0 {
+    opacity: 100%;
+  }
+
+  .Grid:has(#GridIntersect80_0:hover, #GridIntersect80_80:hover) > #GridColumn80 {
+    opacity: 100%;
+  }
+
+.GridIntersect {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  opacity: 0%;
+}

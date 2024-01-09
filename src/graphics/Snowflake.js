@@ -4,6 +4,16 @@ function Snowflake() {
   return (
     <>
       <div className="Snowflakes">
+        {[-90, -75].map((radius, number) =>
+          <div className="Snowflake" key={"Snowflake" + number}>
+            {[0, 60, 120, 180, 240, 300].map((element, index) =>
+              <div className="SnowflakeSpoke" key={"Snowflake" + number + "_Spoke" + index} style={{ transform: `rotate(${element}deg) translateY(${radius}px)` }}>
+                <div className="SnowflakeSpokeMain"></div>
+                <div className="SnowflakeSpokeAccent"></div>
+              </div>
+            )}
+          </div>
+        )}
         <div id="DefaultSnowflake">
           {[0, 60, 120, 180, 240, 300].map((element, index) =>
             <div className="SnowflakeSpoke" key={"DefaultSnowflakeSpoke" + index} style={{ transform: `rotate(${element}deg) translateY(-60px)` }}>
@@ -12,10 +22,10 @@ function Snowflake() {
             </div>
           )}
         </div>
-        {[-90, -75, -45, -30].map((radius, number) =>
+        {[-45, -30].map((radius, number) =>
           <div className="Snowflake" key={"Snowflake" + number}>
             {[0, 60, 120, 180, 240, 300].map((element, index) =>
-              <div className="SnowflakeSpoke" key={"SnowflakeSpoke" + number + "_" + index} style={{ transform: `rotate(${element}deg) translateY(${radius}px)` }}>
+              <div className="SnowflakeSpoke" key={"Snowflake" + number + "_Spoke" + index} style={{ transform: `rotate(${element}deg) translateY(${radius}px)` }}>
                 <div className="SnowflakeSpokeMain"></div>
                 <div className="SnowflakeSpokeAccent"></div>
               </div>
