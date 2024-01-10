@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  height: 100vh;
+  justify-content: space-between;
+  height: 84vh;
   overflow: hidden;
+  padding: 8vh 0;
 }
 
 .Light {
@@ -58,12 +59,10 @@ header {
   width: 85%;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 30px;
 }
 
 footer {
   display: flex;
   width: 85%;
   justify-content: space-between;
-  margin: 20px;
 }
