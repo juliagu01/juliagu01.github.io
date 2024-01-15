@@ -26,7 +26,12 @@
   padding: 8vh 6vw;
 }
 
-.Panel span {
+.Panel .Action p {
+  display: inline;
+}
+
+.Panel .Action span {
+  display: inline;
   font-size: 18px;
 }
 
@@ -37,4 +42,16 @@
 .Options div {
   display: block;
   padding: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .Panel {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .Panel .Action p, .Action p {
+    display: none;
+  }
 }

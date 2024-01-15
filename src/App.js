@@ -1,13 +1,12 @@
 /**
  * To-do:
  * - change rays to half-squares
- * - responsive (viewport)
  * - change elements to components
  * ? add carousel to bottom
  */
 
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import './App.css';
 import Content from './components/Content.js';
 import OverlayPanel from './components/OverlayPanel.js';
@@ -20,9 +19,14 @@ import Grid from './graphics/Grid.js';
 import Telescope from './graphics/Telescope.js';
 
 function App() {
+  const inputRef = useRef(null);
   const [page, setPage] = useState(0);
   const [panel, setPanel] = useState(false);
   const [light, setLight] = useState(true);
+
+  useEffect(() => {
+    inputRef.current.focus();
+  }, []);
 
   function handleKeyDown(e) {
     switch (e.key) {
@@ -93,7 +97,8 @@ function App() {
     }
   }
   return (
-    <div className={light ? "App Light" : "App Dark"} tabIndex="0" onKeyDown={(e) => handleKeyDown(e)}>
+    <div className={light ? "App Light" : "App Dark"}
+      tabIndex="0" onKeyDown={(e) => handleKeyDown(e)} ref={inputRef}>
       <header>
         <h2 id="Logo" onClick={() => setPage(0)}>Julia Gu</h2>
         <MenuAction panel={panel} light={light} onClick={() => setPanel(!panel)} />

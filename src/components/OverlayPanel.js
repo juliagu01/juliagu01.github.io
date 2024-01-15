@@ -10,13 +10,13 @@ function OverlayPanel({ show, onOverlayClick, onPageClick, onThemeClick }) {
             <h1>Menu</h1>
             <div className="Options">
               <div className="Action" onClick={() => onPageClick("Home")}>
-                <p>[h] <span>Hello there!</span></p>
+                <p>[h] </p><span>Hello there!</span>
               </div>
               <div className="Action" onClick={() => onPageClick("Projects")}>
-                <p>[p] <span>Projects</span></p>
+                <p>[p] </p><span>Projects</span>
               </div>
               <div className="Action" onClick={() => onPageClick("Contact")}>
-                <p>[c] <span>Contact</span></p>
+                <p>[c] </p><span>Contact</span>
               </div>
             </div>
           </div>
@@ -24,7 +24,7 @@ function OverlayPanel({ show, onOverlayClick, onPageClick, onThemeClick }) {
             <h1>Settings</h1>
             <div className="Options">
               <div className="Action" onClick={() => onThemeClick()}>
-                <p>[t] <span>Toggle theme</span></p>
+                <p>[t] </p><span>Toggle theme</span>
               </div>
             </div>
           </div>

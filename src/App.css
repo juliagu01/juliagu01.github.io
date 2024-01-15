@@ -32,6 +32,7 @@ p {
   cursor: pointer;
   flex-direction: column;
   padding: 10px;
+  z-index: 1;
 }
 
 .Action p, .Action h2 {

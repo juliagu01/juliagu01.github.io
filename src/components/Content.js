@@ -11,6 +11,7 @@ function Content({text}) {
           {text.description.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
         </div>
       </div>
+      <div className="ContentPadding"></div>
       <div className="Image">{text.img}</div>
     </div>
   );
