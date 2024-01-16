@@ -155,7 +155,7 @@ const text = [
       "Java, Processing",
       "2020"
     ],
-    img: <><Orb /><img src={process.env.PUBLIC_URL + "/splash.png"} alt="Splash" width="350px" style={{zIndex:1}}/></>,
+    img: <><Orb /><img src={"./splash.png"} alt="Splash" width="350px" style={{zIndex:1}}/></>,
     link: "https://github.com/juliagu01/Tumble"
   },
   {
@@ -165,7 +165,7 @@ const text = [
       "JavaScript, Processing.js",
       "2021"
     ],
-    img: <img src={process.env.PUBLIC_URL + "/model.png"} alt="Model" width="300px" style={{"borderRadius": "100%"}} />,
+    img: <img src={"./model.png"} alt="Model" width="300px" style={{"borderRadius": "100%"}} />,
     link: "https://www.khanacademy.org/computer-programming/spin-off-of-3d/5521346115485696"
   },
   {
@@ -175,7 +175,7 @@ const text = [
       "JavaScript",
       "2020"
     ],
-      img: <img src={process.env.PUBLIC_URL + "/results.png"} alt="Results" width="300px" />,
+      img: <img src={"./results.png"} alt="Results" width="300px" />,
       link: "https://www.khanacademy.org/computer-programming/finite-series-calculator/5330136479924224"
   },
   {
@@ -185,7 +185,7 @@ const text = [
       "MERN, touch of Tailwind CSS",
       "2023"
     ],
-    img: <img src={process.env.PUBLIC_URL + "/welcome.png"} alt="Welcome" width="300px" />,
+    img: <img src={"./welcome.png"} alt="Welcome" width="300px" />,
     link: "https://github.com/jameswang08/ucla-dining-app"
   },
   {
@@ -195,7 +195,7 @@ const text = [
       "JavaScript, Processing.js",
       "2022"
     ],
-    img: <img src={process.env.PUBLIC_URL + "/playback.png"} alt="Playback" width="300px" />,
+    img: <img src={"./playback.png"} alt="Playback" width="300px" />,
     link: "https://www.khanacademy.org/computer-programming/driving-practice/5228465746395136"
   },
   {
@@ -205,7 +205,7 @@ const text = [
       "Java",
       "2019"
     ],
-    img: <><Grid /><img src={process.env.PUBLIC_URL + "/grid.png"} alt="Grid" width="350px" style={{zIndex: 1}} /></>,
+    img: <><Grid /><img src={"./grid.png"} alt="Grid" width="350px" style={{zIndex: 1}} /></>,
     link: "https://github.com/juliagu01/OculoChroma"
   },
   {
