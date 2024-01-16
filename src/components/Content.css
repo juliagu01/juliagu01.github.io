@@ -57,17 +57,18 @@
 }
 
 @media screen and (max-width: 650px) {
-  .Heading {
-    font-size: 24px;
-  }
-
-  .Heading span {
-    font-size: 18px;
-  }
-
   .Text {
     width: 70vw;
     left: 15vw;
+    font-size: 15px;
+  }
+
+  .Heading {
+    font-size: 26px;
+  }
+
+  .Heading span {
+    font-size: 20px;
   }
 
   .Description p {
@@ -80,5 +81,21 @@
 
   .ContentPadding {
     display: none;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .Text {
+    width: 85vw;
+    left: 7.5vw;
+    font-size: 14px;
+  }
+
+  .Heading {
+    font-size: 22px;
+  }
+
+  .Heading span {
+    font-size: 16px;
   }
 }

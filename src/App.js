@@ -1,7 +1,9 @@
 /**
  * To-do:
- * - change rays to half-squares
+ * - add animations
+ * - implement swiping
  * - change elements to components
+ * ? fix layout for small viewports (max-width < 200px)
  * ? add carousel to bottom
  */
 
@@ -114,7 +116,7 @@ function App() {
         </div>
         <div id="RightAction" className="Action" onClick={() => incrementPage()}
           style={{ visibility: ((page === text.length - 1) ? "hidden" : "visible") }}>
-          <h2>&#x27A1;</h2>
+          <h2>&#x2B95;</h2>
           <p>[enter]</p>
         </div>
       </footer>

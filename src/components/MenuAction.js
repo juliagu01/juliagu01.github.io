@@ -5,7 +5,7 @@ function MenuAction({ panel, light, onClick }) {
     return (
       <div id="MenuAction" className="Action" onClick={() => onClick()}
         style={{ color: "black" }}>
-        <h2>&#x2716;</h2>
+        <h2>&#x2715;</h2>
         <p>[x]</p>
       </div>
     );
