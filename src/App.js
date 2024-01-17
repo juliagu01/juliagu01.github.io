@@ -111,12 +111,12 @@ function App() {
       <footer>
         <div id="LeftAction" className="Action" onClick={() => decrementPage()}
           style={{ visibility: ((page === 0) ? "hidden" : "visible") }}>
-          <h2>&#x2B05;</h2>
+          <h2>&#x2190;</h2>
           <p>[shift-enter]</p>
         </div>
         <div id="RightAction" className="Action" onClick={() => incrementPage()}
           style={{ visibility: ((page === text.length - 1) ? "hidden" : "visible") }}>
-          <h2>&#x2B95;</h2>
+          <h2>&#x2192;</h2>
           <p>[enter]</p>
         </div>
       </footer>
@@ -143,7 +143,7 @@ const text = [
   {
     heading: "Personal website",
     description: [
-      "(Is this meta or what? *wink*)",
+      "(How curiously meta!)",
       "Back to basics with React.js and CSS. Used React hooks and CSS pseudo-classes to create an interactive single-page website to display my work.",
       "React.js, CSS",
       "2023"
@@ -213,7 +213,8 @@ const text = [
   {
     heading: "Contact",
     description: [
-      "Interested in learning more? You can reach me at julia.gu01@gmail.com or (408) 676-7257. I look forward to speaking with you!"
+      "Interested in learning more? You can reach me by email at [firstname.lastname01]@gmail.com. That is it! Short and sweet.",
+      "I look forward to speaking with you!"
     ],
     img: <Telescope />
   }
