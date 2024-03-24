@@ -14,8 +14,14 @@
   text-decoration: none;
 }
 
+.Heading a {
+  display: flex;
+  align-items: flex-start;
+}
+
 .Heading span {
-  font-size: 24px;
+  font-size: 14px;
+  margin: 5px 10px;
 }
 
 .Description {
@@ -41,34 +47,19 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
+  .Content {
+    align-items: flex-end;
+  }
+
   .Text {
     position: absolute;
-  }
-
-  .ContentPadding {
-    width: 30vw;
-  }
-
-  .Image {
-    position: relative;
-    opacity: 50%;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .Text {
-    width: 70vw;
+    width: 350px;
     left: 15vw;
-    font-size: 15px;
   }
 
   .Heading {
-    font-size: 26px;
-  }
-
-  .Heading span {
-    font-size: 20px;
+    font-size: 28px;
   }
 
   .Description p {
@@ -76,7 +67,8 @@
   }
 
   .Image {
-    opacity: 25%;
+    position: relative;
+    transform: translate(17vw, -10vh) scale(0.8);
   }
 
   .ContentPadding {
@@ -84,18 +76,39 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 900px) {
   .Text {
-    width: 85vw;
+    left: 12vw;
+    font-size: 15px;
+  }
+
+  .Heading {
+    font-size: 26px;
+  }
+
+  .Image {
+    transform: translate(17vw, -10vh) scale(0.7);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Text {
+    width: 250px;
     left: 7.5vw;
     font-size: 14px;
   }
 
   .Heading {
-    font-size: 22px;
+    font-size: 23px;
   }
 
-  .Heading span {
-    font-size: 16px;
+  .Image {
+    transform: translate(17vw, -17vh) scale(0.6);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .Text {
+    width: 85vw;
   }
 }

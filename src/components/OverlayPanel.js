@@ -7,7 +7,7 @@ function OverlayPanel({ show, onOverlayClick, onPageClick, onThemeClick }) {
         <div className="Overlay" onClick={() => onOverlayClick()}></div>
         <div className="Panel">
           <div className="Menu"> 
-            <h1>Menu</h1>
+            <h2>Menu</h2>
             <div className="Options">
               <div className="Action" onClick={() => onPageClick("Home")}>
                 <p>[h] </p><span>Hello there!</span>
@@ -21,7 +21,7 @@ function OverlayPanel({ show, onOverlayClick, onPageClick, onThemeClick }) {
             </div>
           </div>
           <div className="Settings">
-            <h1>Settings</h1>
+            <h2>Settings</h2>
             <div className="Options">
               <div className="Action" onClick={() => onThemeClick()}>
                 <p>[t] </p><span>Toggle theme</span>

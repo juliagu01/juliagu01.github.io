@@ -1,7 +1,8 @@
 .Telescope {
   position: relative;
-  left: 30vmax;
-  top: calc(65px + 12vmax);
+  left: 25vmax;
+  top: calc(40px + 12vmax);
+  transform: scale(0.8);
 }
 
 #DefaultTelescopeAngle {

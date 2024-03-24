@@ -1,7 +1,7 @@
 .Snowflakes {
   position: absolute;
   top: 2vmax;
-  left: -80vmax;
+  left: -180vmax;
 }
 
 #DefaultSnowflake {
@@ -22,7 +22,7 @@
 
 .SnowflakeSpoke {
   position: absolute;
-  width: 200vmax;
+  width: 400vmax;
   height: 60px;
 }
 

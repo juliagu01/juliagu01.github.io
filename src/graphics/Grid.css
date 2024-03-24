@@ -7,7 +7,7 @@
 .GridStripe {
   position: absolute;
   opacity: 80%;
-  width: 200vmax;
+  width: 400vmax;
   height: 40px;
   background-color: #dd88aa44;
 }

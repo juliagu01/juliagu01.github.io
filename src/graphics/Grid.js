@@ -5,8 +5,8 @@ function Grid() {
     <div className="Grid">
       {[0, 80].map((element) =>
         <>
-          <div className="GridStripe" id={"GridRow" + element} style={{ transform: `translate(-100vmax, ${element}px)` }}></div>
-          <div className="GridStripe" id={"GridColumn" + element} style={{ transform: `translateX(-100vmax) rotate(-90deg) translateY(${element}px)` }}></div>
+          <div className="GridStripe" id={"GridRow" + element} style={{ transform: `translate(-200vmax, ${element}px)` }}></div>
+          <div className="GridStripe" id={"GridColumn" + element} style={{ transform: `translateX(-200vmax) rotate(-90deg) translateY(${element}px)` }}></div>
         </>
       )}
       {[0, 80].map((elementX) =>

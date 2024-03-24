@@ -129,7 +129,7 @@ const text = [
     heading: "Hello there!",
     description: [
       "I am Julia Gu, current computer science undergraduate at the University of California, Los Angeles. Whether you are a friend checking out what I have been up to or an employer who would like to get to know me, I am pleased to make your acquaintance.",
-      "(Interact with the sun beams!)"
+      "(Interact with the beams!)"
     ],
     img: <Sun />
   },
@@ -213,7 +213,7 @@ const text = [
   {
     heading: "Contact",
     description: [
-      "Interested in learning more? You can reach me by email at [firstname.lastname01]@gmail.com. That is it! Short and sweet.",
+      "Interested in learning more? You can reach me by email at [firstname].[lastname]01@gmail.com. That is it! Short and sweet.",
       "I look forward to speaking with you!"
     ],
     img: <Telescope />

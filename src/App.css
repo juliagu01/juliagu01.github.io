@@ -32,7 +32,7 @@ p {
   cursor: pointer;
   flex-direction: column;
   padding: 10px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .Action p, .Action h2 {
@@ -53,6 +53,7 @@ p {
 
 #Logo {
   cursor: pointer;
+  z-index: 2;
 }
 
 header {
